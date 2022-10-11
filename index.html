@@ -16,10 +16,10 @@
 
 <body>
   <picture>
-    <source media="(min-width: 769px)" srcset="images/hero-squirrel-1920w.jpg">
-    <source media="(min-width: 381px)" srcset="images/hero-squirrel-768w.jpg">
-    <source media="(max-width: 380px)" srcset="images/hero-squirrel-380w.jpg">
-    <img src="images/hero-squirrel-768w.jpg" alt="brown squirrel on green grass lawn">
+    <source media="(min-width: 769px)" srcset="images/hero-1920.jpg">
+    <source media="(min-width: 381px)" srcset="images/hero-768.jpg">
+    <source media="(max-width: 380px)" srcset="images/hero-380.jpg">
+    <img src="images/hero-768.jpg" alt="ocean painting">
   </picture>
   <header>
     <nav>
@@ -34,7 +34,16 @@
   <!-- copy your main, aside, and footer from your previous assignment here -->
   <main>
     <h1>Squirrels are your friends</h1>
+    <svg>
+      <use href="#circle" />
+    </svg>
   </main>
+  <svg>
+    <symbol id="circle" viewBox="0 0 120 120">
+      <circle fill="pink" stroke="#fe7968" width="20" cx="60" cy="60" r="54" />
+    </symbol>
+  </svg>
+
 </body>
 
 </html>
